@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thể Thao - Chuyên mục Ảnh</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header (Giữ nguyên menu, thêm class active cho mục Ảnh) -->
+        <header>
+            <div class="logo-bar">Thể thao</div>
+            <nav>
+                <ul>
+                    <li><a href="trangchu.html">Bóng đá</a></li>
+                    <li><a href="#">Lịch thi đấu</a></li>
+                    <li><a href="#">Marathon</a></li>
+                    <li><a href="#">Tennis</a></li>
+                    <li><a href="#">Hậu trường</a></li>
+                    <li><a href="PagePhotos.html">Ảnh</a></li>
+                    <li><a href="#">Video</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Bố cục chính cho mục Ảnh -->
+        <div class="main-layout photo-layout">
+
+            <!-- CỘT TRÁI: LƯỚI HÌNH ẢNH (CHIA THÀNH GRID 2 CỘT) -->
+            <main class="photo-grid">
+
+                <!-- Bài viết lớn trên cùng (Nổi bật) -->
+                <div class="photo-item featured-photo">
+                    <div class="image-wrapper">
+                        <img src="./img/anh1.png" alt="Tiêu đề 10" class="news-image">
+                        <span class="photo-count">📸 12</span>
+                    </div>
+                    <div class="photo-meta">
+                        <h2>Đội tuyển Việt Nam tập huấn dứt điểm tại Hàn Quốc</h2>
+                        <p>Những hình ảnh cận cảnh buổi tập chiến thuật rèn luyện kỹ năng dứt điểm của các tiền đạo dưới
+                            sự chỉ đạo sát sao từ huấn luyện viên...</p>
+                    </div>
+                </div>
+
+                <!-- Các bài viết ảnh thông thường -->
+                <div class="photo-item">
+                    <div class="image-wrapper">
+                        <img src="./img/anh2.png" alt="Tiêu đề 10" class="news-image">
+                        <span class="photo-count">📸 8</span>
+                    </div>
+                    <div class="photo-meta">
+                        <h3>CĐV Arsenal trên khắp thế giới mừng vô địch Ngoại hạng Anh</h3>
+                    </div>
+                </div>
+
+            </main>
+
+            <!-- CỘT PHẢI: SIDEBAR (Giữ nguyên cấu trúc dòng tin tức như ảnh mẫu) -->
+            <aside class="sidebar">
+                <div class="widget">
+                    <div class="widget-title">Hậu trường</div>
+                    <ul class="widget-list">
+                        <li><a href="#">• Các ngôi sao giải trí đổ bộ sân vận động xem bóng đá</a></li>
+                        <li><a href="#">• Cuộc sống đời thường giản dị của siêu sao quần vợt</a></li>
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">Bóng đá</div>
+                    <ul class="widget-list">
+                        <li><a href="#">• Điểm nhấn chiến thuật giúp đội bóng lội ngược dòng</a></li>
+                        <li><a href="#">• Lịch thi đấu vòng kế tiếp có gì đáng chú ý?</a></li>
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">Tennis</div>
+                    <ul class="widget-list">
+                        <li><a href="#">• Trận đấu kéo dài 5 giờ đồng hồ lập kỷ lục mới</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Phân trang -->
+            <div class="pagination">
+                <div class="page-item active">1</div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
